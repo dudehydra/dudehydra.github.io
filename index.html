@@ -27,7 +27,7 @@
         ></a-image> -->
 
         <!-- ~ 0m far -->
-        <a-image src="place.png" gps-entity-place="latitude: 55.75531; longitude: 48.74441;" position="0 30 0"  scale="10 10 10"
+        <a-image src="place.png" gps-entity-place="latitude: 55.75531; longitude: 48.74441;" position="0 0 0"  scale=" 3 3"
 
             ></a-image>
         <a-entity
@@ -41,6 +41,7 @@
         <a-camera
             rotation-reader
             gps-camera
+            gpsMinDistance: 10;
         >
 		</a-camera>
 	</a-scene>
